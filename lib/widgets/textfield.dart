@@ -113,6 +113,9 @@ class _TextFieldWidgetsState extends State<TextFieldWidgets> {
         children: [
           const ListTile(title: Text('1. Number Input Field')),
           _buildNumberTextField(),
+          const ListTile(title: Text('1. Number Input Field')),
+          _buildNumberTextField(),
+
           const ListTile(title: Text('2. Multiline Text Field')),
           _buildMultilineTextField(),
           const ListTile(title: Text('3. Password Text Field')),
